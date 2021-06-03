@@ -2,10 +2,11 @@
 
 using namespace std;
 
-main()
+int main()
 {
     // cin - console input
     int a;
+    cout << "Enter an integer : ";
     cin >> a;
     cout << "Variable name a = " << a << endl;
 
@@ -17,6 +18,6 @@ main()
     cout << "Enter your surname : ";
     cin >> surname;
 
-    cout << "Welcome "<<name<<" "<<surname<<endl;
+    cout << "Welcome, "<<name<<" "<<surname<<endl;
 
 }
